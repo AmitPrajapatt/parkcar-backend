@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs'); // Agar aap hashing use kar rahe hain
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../models/user');
 
 // --- 1. REGISTER API (Updated to handle Managers) ---
 router.post('/register', async (req, res) => {
