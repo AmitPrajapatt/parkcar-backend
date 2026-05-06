@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Slot = require('../models/Slot');
-const Session = require('../models/Session');
+const Slot = require('../models/slot');
+const Session = require('../models/session');
 
 // 1. Dashboard Stats (Total, Available, Occupied)
 router.get('/stats', async (req, res) => {
