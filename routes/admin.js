@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User');
-const Session = require('../models/Session');
+const User = require('../models/user');
+const Session = require('../models/session');
 
 // 1. Get Analytics & Revenue
 // 1. Advanced Analytics & Revenue
